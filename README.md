@@ -9,32 +9,18 @@ Since 2021, the cost of housing, and interest rates have skyrocketed. The decade
 ## Objective:
 Create a place for young potential buyers to go to 1) check on the average cost of homes, 2) check on the current interest rates and 3) take a look at where my ML model will predict that the housing prices will go in the future. This will educate individuals and enable them with the knowledge to determine if buying property is realistic, and if it is a good time to do so.
 
-## Learning Objectives:
+## Conceptual Learning Objectives:
 - [ ] ETL
 - [ ] Containerization
 - [ ] CICD
 - [ ] MLOps
 - [ ] Feature Engineering
 
-## Tool Objectives:
-- [ ] ETL
-- [ ] Containerization
-- [ ] CICD
-- [ ] MLOps
-- [ ] Feature Engineering
-
-- [ ] 
-Inline-style: 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
-
-
-
-Code Block:
-```python
-s = "Python syntax highlighting"
-print s
-```
-Inline `code`
+## Tool Learning Objectives:
+- [ ] Tensorflow
+- [ ] Kubernetes
+- [ ] Docker
+- [ ] Kubeflow
 
 ======
 # Notes
@@ -70,3 +56,20 @@ Inline `code`
 - Deploy
 - Operate
 
+
+
+
+
+
+- [ ] 
+Inline-style: 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+
+
+
+Code Block:
+```python
+s = "Python syntax highlighting"
+print s
+```
+Inline `code`
