@@ -16,7 +16,14 @@ Create a place for young potential buyers to go to 1) check on the average cost 
 - [ ] MLOps
 - [ ] Feature Engineering
 
+## Tool Objectives:
+- [ ] ETL
+- [ ] Containerization
+- [ ] CICD
+- [ ] MLOps
+- [ ] Feature Engineering
 
+- [ ] 
 Inline-style: 
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
 
@@ -28,3 +35,38 @@ s = "Python syntax highlighting"
 print s
 ```
 Inline `code`
+
+======
+# Notes
+## CI/CD Pipeline
+#### Design
+- Added value
+- Buisness Requirements
+- Key Metrics
+- Data Processing
+- EDA (Exploratory Data Analysis)
+- Implementation Design
+#### Development
+- Feature Engineering
+- Expirement Design
+- Experiment Tracking
+- Model training & Evaluation
+#### Deployement
+- Deploy Model
+- Runtime Environments
+- Micorservice Architecture
+- Setup CI/CD Pipeline
+- Monitor & Retrain
+=====
+
+## CI
+- Plan
+- Code
+- Build
+- Test
+## CD
+- Test
+- Release
+- Deploy
+- Operate
+
