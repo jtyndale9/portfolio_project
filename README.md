@@ -17,6 +17,7 @@ Create a place for young potential buyers to go to 1) check on the average cost 
 - [ ] Feature Engineering
 
 ## Tool Learning Objectives:
+- [ ] Database: MySQL, PostgreSQL, MariaDB 
 - [ ] Tensorflow
 - [ ] Kubernetes
 - [ ] Docker
