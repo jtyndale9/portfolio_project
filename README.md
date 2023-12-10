@@ -1,4 +1,7 @@
 # Portfolio Project
+#### Joshua Tyndale
+##### josh.tyndale@gmail.com
+======
 
 ## Problem Statement:
 Since 2021, the cost of housing, and interest rates have skyrocketed. The decade of low cost housing and low interest rates following the 2008 economic crash has ended. This prices out many young buyers from the housing market, forcing them to rent, resulting in an inability to accumulate assets.
