@@ -1,16 +1,18 @@
+from datetime import datetime
 from scrapy import Selector
+import requests
 #from bs4 import BeautifulSoup
 #import scrapy
 #from scrapy.crawler import CrawlerProcess
-import requests
-from datetime import datetime
 
 
 """
 File to download FRED Economic Data. Tried using web scraping techniques.
 """
 
-def execute_direct_link():
+
+#  Average Sales Price of Houses Sold for the United States (ASPUS)
+def extract_aspus():
     todays_date = datetime.now().strftime("%m_%d_%Y")
 
     filename = f'housing_data_{todays_date}.csv'

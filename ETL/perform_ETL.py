@@ -1,6 +1,7 @@
-import extract
-import transform
+import ETL.extract  as extract
+import ETL.transform as transform
 
-
-extract.execute_direct_link()
-transform.get_data()
+def run():
+    extract.extract_aspus()
+    data = transform.clean_aspus()
+    return data

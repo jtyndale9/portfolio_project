@@ -1,12 +1,12 @@
-import pandas as pd
-import sys
-import numpy as np
 from datetime import datetime
+import pandas as pd
+import numpy as np
+import sys
 
 todays_date = datetime.now().strftime("%m_%d_%Y")
 
 
-def normalize_data(data):
+def normalize_data(data, column):
     
     # This is returning different ranges of outputs....
     #normalized_data = preprocessing.normalize([data])
@@ -18,7 +18,7 @@ def normalize_data(data):
     
     # By-hand calculation
     # zi = (xi – min(x)) / (max(x) – min(x)) * 100
-    data = (data - min(data)) / (max(data) - min(data)) * 100
+    data[column] = (data[column] - min(data[column])) / (max(data[column]) - min(data[column])) * 100
     return data
 
 
@@ -35,8 +35,17 @@ def get_data():
     )
 
     #savings_data = savings_data[['Date', 'PSAVERT']]
-    print(data)
+    #print(data)
     #savings_data['PSAVERT'] = normalize_data(savings_data['PSAVERT'])
     #savings_data = savings_data[(savings_data['Date'] > dt.datetime(1974,12,31)) & ((savings_data['Date'] < dt.datetime(2022,11,1)))]
+    print(data.columns)
+    data.drop(['DATE'],  axis=1, inplace=True)
     return data
+
+def clean_aspus():
+    data = get_data()
+    print(data)
+    normalized_data = normalize_data(data, 'ASPUS')
+    print(normalized_data)
+    return normalized_data
 
